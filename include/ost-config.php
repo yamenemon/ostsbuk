@@ -41,10 +41,12 @@ define('ADMIN_EMAIL','robin.zitf@gmail.com');
 #
 define('DBTYPE','mysql');
 #  DBHOST can have comma separated hosts (e.g db1:6033,db2:6033)
-define('DBHOST','localhost');
-define('DBNAME','osticket23');
-define('DBUSER','admin');
-define('DBPASS','yourpass');
+define('AZURE_MYSQL_HOST','ostsbuk-server.mysql.database.azure.com');
+define('AZURE_MYSQL_FLAG','MYSQLI_CLIENT_SSL');
+define('AZURE_MYSQL_DBNAME','ostsbuk-database');
+define('AZURE_MYSQL_PASSWORD','PA4565OB3U2K07I8$');
+define('AZURE_MYSQL_PORT','3306');
+define('AZURE_MYSQL_USERNAME','mdnnqukawe');
 
 # Database TCP/IP Connect Timeout (default: 3 seconds)
 # Timeout is important when DBHOST has multiple proxies to try
